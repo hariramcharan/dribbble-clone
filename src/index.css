@@ -1,0 +1,158 @@
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;*/
+.card-img{
+    border-radius: 10px;
+    width:300px;
+    height:150px;
+
+}
+.titles{
+    display:flex;
+    justify-content:space-between;
+}
+.header{
+    display:flex;
+    border:1px solid black;
+}
+.nav-items > ul {
+    font-size:15px;
+    display:flex;
+    list-style-type:none;
+}
+.nav-items > ul > li{
+    margin:18px;
+}
+.res-card{
+    border-radius: 10px;
+    margin:10px;
+   width:300px;
+   height:200px;
+   background-color:"#f0f0f0";
+}
+.res-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center
+    
+}
+.res-card:hover{
+    border:1px solid grey;
+    cursor:pointer;
+}
+
+select {
+  appearance: none; /* Remove default arrow */
+  padding: 8px 12px; /* Adjust padding as needed */
+  border: 2px solid #ccc; /* Border color */
+  border-radius: 20px; /* Round corners */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Style for option elements */
+option {
+  border-radius: 20px; /* Round corners */
+}
+
+/* Optional: Style when select element is focused */
+select:focus {
+  border-color: #007bff; /* Change border color on focus */
+}
+
+.search{
+    padding:10px;
+}
+.buttons {
+    display: flex;
+    gap: 10px; /* Adjust the value to change the spacing between buttons */
+    justify-content: center;
+    margin:10px;
+  }
+  a{
+    text-decoration: none;
+    color:#0d0c22;
+  }
+  .buttons .buton {
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px; /* Adjust the value to change the roundness */
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .buttons .buton:hover {
+    background-color: #ccc; /* Adjust the color as needed */
+  }
+  .titles {
+    display: flex;
+    align-items: left; /* Align items vertically */
+    gap: 10px; /* Adjust the value to change the gap between items */
+  }
+  
+  .titles h3 {
+    margin: 0; /* Remove default margin */
+  }
+  .body{
+    margin:10px;
+  }
+  .titles button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ccc; /* Grey background */
+    color: white; /* White text */
+    cursor: pointer;
+  }
+  .footer {
+    background-color: #f4f7f6;
+    padding: 30px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    flex: 0 0 45%;
+  }
+  
+  .footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-bottom {
+    max-width: 1200px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  .footer-links a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #666;
+  }
+  
+  .footer-links a:hover {
+    color: #000;
+  }
+  
